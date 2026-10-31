@@ -1,0 +1,49 @@
+body {
+
+    background-image: url("pictures/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bodytxt {
+    color: #fafae0;
+    font-family: 'basic';
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: -100px;
+}
+
+.bodbody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90vh;
+}
+
+h1 {
+    font-family: 'chelsea market';
+    color: #fafae0;
+    font-size: 150px;
+    margin-left: -10px;
+}
+
+.error {
+    text-decoration: none;
+    color: #fafae0;
+    transition: color 0.3s ease;
+}
+
+.error:hover {
+    color: #ade8f4;
+}
+
+.orpheus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+
