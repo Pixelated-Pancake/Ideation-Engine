@@ -1,0 +1,37 @@
+
+
+body {
+
+    background-image: url("pictures/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.mainheader {
+    color: #fafae0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: middle;
+}
+
+footer{
+    margin: 0px;
+    color: #fafae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilelink {
+    color: #fafae0;
+    text-decoration: none;
+}
