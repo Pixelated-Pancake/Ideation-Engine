@@ -27,7 +27,7 @@ body {
 }
 
 .profilelink:hover {
-    color: #86ade7;
+    color: #ade8f4;
 }
 
 .orpheusflag {
@@ -65,6 +65,11 @@ body {
 .githublink {
     color: #fafae0;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.githublink:hover {
+    color: #ade8f4;
 }
 
 .bodytext {
@@ -87,8 +92,7 @@ h1 {
 
 .pagechange {
     text-decoration: none;
-    color: #fafae0;
-    background: linear-gradient(to right, #caf0f8, #0096c7);
+    background: linear-gradient(to right, #0096c7, #caf0f8);
     -webkit-background-clip: text;
     color: transparent;
 }
