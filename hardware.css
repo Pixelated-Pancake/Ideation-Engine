@@ -64,11 +64,35 @@ body {
 .subtxt {
     position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: -50px;
     transition: color 0.3s ease;
-    cursor: pointer
+    cursor: pointer;
+    font-family: 'basic';
 }
 
 .subtxt:hover {
     color: #ade8f4;
+}
+
+.reroll {
+    position: relative;
+    display: flex;
+    top: 50px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    font-family: 'basic';
+    margin-top: -100px;
+}
+
+.reroll:hover {
+    color: #ade8f4;
+}
+
+.disp {
+    font-family: 'chelsea market';
+    font-size: 125px;
+    margin-top: -50px;
+    text-align: center;
 }
